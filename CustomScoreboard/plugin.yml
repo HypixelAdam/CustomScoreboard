@@ -1,0 +1,82 @@
+name: CustomScoreboards
+main: com.rajnetwork.cusb.Core
+version: 1.1.5
+commands:
+   cshelp:
+      description: Displays help for the plugin.
+      aliases: [csh]
+      usage: /<command>
+   cshelpaliases:
+      description: Displays alternate or shorter commands.
+      aliases: [csha]
+      usage: /<command>      
+   csnew:
+      description: Create a new scoreboard.
+      aliases: [csn]
+      usage: /<command> <name> <displayname> <displayslot> <text> [score]
+   csdelete:
+      description: Delete a scoreboard.
+      aliases: [csd]
+      usage: /<command> <name>
+   csreload:
+      description: Reload the config.
+      aliases: [csr]
+      usage: /<command>
+   csdeselect:
+      description: Removes your current active scoreboard.
+      aliases: [csds]
+      usage: /<command> [player]
+   csselect:
+      description: Select a scoreboard to view it.
+      aliases: [css]
+   csversion:
+      description: Displays the current version of the plugin.
+      aliases: [csv]
+      usage: /<command>
+   cehelpedit:
+      description: Displays the edit scoreboard help.
+      aliases: [cehe]
+      usage: /<command>
+   cehelpaliases:
+      description: Displays alternate or shorter edit commands.
+      aliases: [ceha]
+      usage: /<command>
+   ceedit:
+      description: Displays help commands but with the scoreboard of your choice.
+      aliases: [cee]
+      usage: /<command> <name>
+   cesettitle:
+      description: Set the title of a scoreboard.
+      aliases: [cest]
+      usage: /<command> <name> <newtitle>
+   cedelline:
+      description: Delete a line off a scoreboard.
+      aliases: [cedl]
+      usage: /<command> <name> <score/line>
+   ceaddline:
+      description: Add a line on your scoreboard.
+      aliases: [ceal]
+      usage: /<command> <name> <text> [score]
+   ceeditline:
+      description: Edit a line on the scoreboard.
+      aliases: [ceel]
+      usage: /<command> <name> <score/line> <text>
+   cechangeline:
+      description: Change a line on your scoreboard to another line.
+      aliases: [cecl]
+      usage: /<command> <name> <linefrom> <lineto>
+   ceaddworld:
+      description: Add a world that this scoreboard will be only enabled in.
+      aliases: [ceaw]
+      usage: /<command> <name> <worldname>
+   ceremoveworld:
+      description: Remove a world from your scoreboard.
+      aliases: [cerw]
+      usage: /<command> <name> <worldname>
+   ceaddfunction:
+      description: Add a function to a line on your scoreboard.
+      aliases: [ceaf]
+      usage: /<command> <name> <function> <line>
+   
+      
+   

@@ -1,0 +1,37 @@
+# CustomScoreboards - Made by HypixelAdam 
+# How to create a scoreboard within here
+# You can copy the example or you could follow these instructions
+# example: - This is the name of the scoreboard
+# displayname: <name> - This is the header of the scoreboard, you may use chat colors using the & sign.
+# displayslot: <sidebar/belowname/playerlist> - This is where its going to be displayed.
+# lines: - This is going to be the lines of the scoreboard, you may also add functions.
+# Functions are: %playername%, %location%.
+# '0': - This is line/score of the scoreboard.
+# text: - This is the text of the line, you may use chat colors using the & sign.
+# These are messages that will display upon a certain action
+# locationformat: <format> - Add %s 4 times in the message to properly have all coordinates
+
+
+Messages:
+   errors:
+      cnsfmess: '&cMessages file could not be saved!'
+      cnsfscore: '&cScoreboards file could not be saved!'
+      cncfmess: '&cMessages file could not be created!'
+      cncfscore: '&cScoreboards file could not be created!'
+      checkconsole: '&cCheck console for more info. If you think this is a mistake, contact me!' 
+      createdfiles: '&cThere was some files missing so they have been created!' 
+      command:
+         toomanyargs: '&cToo many arguments! &6For more information do &e/cshelp&6.' 
+         missingargs: '&cMissing arguments! &6For more information do &e/cshelp&6.' 
+   prefixes:
+      command: '&6[&2CustomSBs&6] &7» &r' 
+      scoreboard: '&6[&2CustomSBs&6] &7» &r'
+   locationformat: '&e%s&a, &e%s&a, &e%s&a, &e%s'
+
+Scoreboards:
+   example:
+      displayname: '&6Testing'
+      displayslot: SIDEBAR
+      lines:
+         '0':
+            text: '&6This is a test'   
